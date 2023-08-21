@@ -1,0 +1,318 @@
+
+
+/*
+Author: Bootstrapthemes
+Author URI: http://www.xpeedstudio.com
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+
+
+    .cloudy{
+        top: 250px;
+        right: -240px;
+    }
+    .sunny{
+        top: 250px;
+        right: -230px;
+    }
+    .rainy{
+        top:270px;
+        right: -220px;
+    }
+
+
+
+}
+
+
+
+/* Portrait tablets and small desktops */
+/*@media (max-width: 992px) {
+
+}*/
+
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+
+    .sm-text-center{
+        text-align: center !important;
+    }
+    .sm-pull-none{
+        float: none !important;
+    }
+    .sm-m-top-10{
+        margin-top:10px;
+    }
+    .sm-m-top-20{
+        margin-top:20px;
+    }
+    .sm-m-top-30{
+        margin-top:30px;
+    }
+    .sm-m-top-50{
+        margin-top:50px;
+    }
+
+    nav.navbar.bootsnav.footer-menu{
+        background-color: transparent;
+        border-bottom: 0px solid;
+    }
+    nav.navbar.bootsnav.footer-menu .navbar-toggle{
+        background-color: transparent !important;
+    }
+
+    .cloudy {
+        right: -136px;
+    }
+    .attr_wb {
+        right: 22%;
+    }
+    .attr_loxone {
+        left: 21%;
+    }
+    .attr_satel {
+      right: 22%;
+    }
+    .sunny {
+        right: -150px;
+    }
+    .attr_ac {
+        right: 22%;
+    }
+    .attr_diff {
+        left: 20%;
+    }
+    .attr_uzo_rele {
+      right: 22%;
+    }
+  .attr_texts {
+    right: 22%;
+  }
+  .attr_bp {
+    right: 22%;
+  }
+  .attr_klem {
+    left: 20%;
+  }
+  .attr_price_month3,
+  .attr_price_month10,
+  .attr_price_month100,
+  .attr_price_year3,
+  .attr_price_year10,
+  .attr_price_year100{
+    left: 20%;
+  }
+    .rainy {
+        right: -103px;
+    }
+    .attr_rainy2 {
+        right: 22%;
+    }
+    .attr_deg4 {
+        left: 21%;
+    }
+
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    h2{
+        font-size:2rem;
+    }
+    p{
+        font-size:90%;
+        line-height: 2rem;
+    }
+    .xs-pull-none{
+        float: none !important;
+    }
+    .xs-text-center{
+        text-align: center !important;
+    }
+    .xs-m-top-10{
+        margin-top:10px;
+    }
+    .xs-m-bottom-10{
+        margin-bottom:10px;
+    }
+    .xs-m-bottom-20{
+        margin-bottom:20px;
+    }
+    .sunny {
+        right: -170px;
+    }
+    .attr_ac {
+        right: 18%;
+    }
+    .attr_diff {
+        left: 15%;
+    }
+    .attr_uzo_rele {
+      right: 18%;
+    }
+  .attr_texts {
+    right: 18%;
+  }
+  .attr_bp {
+    right: 18%;
+  }
+  .attr_klem {
+    left: 15%;
+  }
+  .attr_price_month3,
+  .attr_price_month10,
+  .attr_price_month100,
+  .attr_price_year3,
+  .attr_price_year10,
+  .attr_price_year100{
+    left: 15%;
+  }
+    .rainy {
+        right: -205px;
+    }
+    .attr_rainy2 {
+        right: 11%;
+    }
+    .attr_deg4 {
+        left: 10%;
+    }
+
+
+}
+
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 85%;
+    }
+    .cloudy {
+        top: 255px;
+        right: -190px;
+        font-size: 11rem;
+    }
+    .attr_wb {
+        right: 0%;
+    }
+    .attr_loxone {
+        left: 0%;
+    }
+    .attr_satel {
+      right: 0%;
+    }
+
+    .attr_ac {
+        right: 0%;
+    }
+    .attr_diff {
+        left: 0%;
+    }
+    .attr_uzo_rele {
+      right: 0%;
+    }
+  .attr_texts {
+    right: 0%;
+  }
+  .attr_bp {
+    right: 0%;
+  }
+  .attr_klem {
+    left: 0%;
+  }
+  .attr_price_month3,
+  .attr_price_month10,
+  .attr_price_month100,
+  .attr_price_year3,
+  .attr_price_year10,
+  .attr_price_year100{
+    left: 0%;
+  }
+
+    .attr_rainy2 {
+        right: 0%;
+    }
+    .attr_deg4 {
+        left: 0%;
+    }
+
+  .home_text h1 {
+    font-size: 2.5rem;
+  }
+
+  .culmn .block-user-login-block .item-list {
+    margin-left: 11px;
+    display: block;
+  }
+}
+
+
+
+
+
+@media (max-width: 400px) {
+
+
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+  .culmn .block-user-login-block .item-list {
+    position: relative;
+    float: left;
+    margin-left: 70px;
+    width: 100%;
+    margin-top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .download_item {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .download_item img.app_right {
+    bottom: -274px;
+  }
+  .download_item.roomy-custom {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .culmn .block-user-login-block .item-list {
+    margin-left: 170px;
+  }
+
+  .download_item {
+    padding-top: 0;
+  }
+
+  .download_item img.app_right {
+    bottom: 0;
+  }
+  .path-frontpage .main_home {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .path-frontpage .scrooldown {
+    bottom: 2%;
+  }
+}
+
+

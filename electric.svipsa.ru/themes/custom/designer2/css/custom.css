@@ -1,0 +1,421 @@
+.main-content__section, .sidebar__section {
+  padding: 10px 0 10px;
+}
+
+#el_draw2d_designer_block_toolbar {
+  text-align: end;
+}
+
+body.path-designer {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.page-container .main-content {
+  /*max-height: 800px;*/
+}
+
+body.path-designer #block-designer-page-title .page-title {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+body.path-frontpage .region-content h2.title {
+  margin: 0;
+  padding: 0;
+}
+
+#el-elements-tree-wrapper {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 240px;
+}
+
+.messages__wrapper {
+  margin-top: 5px;
+}
+
+.messages__wrapper .messages {
+  margin: 0;
+}
+
+.messages + .messages {
+  margin-top: 0px;
+}
+
+.el_draw2d-designer-wrapper {
+  height: 100vh;
+  padding-bottom: 240px;
+  max-height: none;
+}
+
+.messages__wrapper .messages:before {
+  line-height: 39px;
+}
+
+.header__container {
+  padding: 20px 0 0;
+}
+
+.toolbar-btn {
+  min-width: 29px;
+  padding: 1px 0px;
+  margin-right: 1px;
+}
+
+.toolbar-btn img {
+  max-width: 26px;
+}
+
+.view-slideshow .views-slideshow-controls-bottom .item-list ul li:last-child {
+  padding: 0 6px;
+}
+
+.path-frontpage #block-designer-page-title,
+.path-frontpage #block-designer-content {
+  display: none;
+}
+
+.path-frontpage .intro h1 {
+  font-size: 3vw !important;
+}
+
+.path-frontpage .system-messages {
+  position: absolute;
+  margin: -150px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.path-frontpage .block-user-login-block .item-list li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.path-frontpage .block-user-login-block .item-list a {
+  color: #ffffff;
+}
+
+.oferta-page a, .new-element-page .messages a {
+  color: #0a65aa;
+}
+
+.menu--manage ul.menu li {
+  border-right: 1px solid white;
+  padding-right: 2px;
+}
+
+.menu--manage ul.menu li:last-child {
+  border-right: none;
+}
+
+.menu--manage ul.menu li a {
+  margin: 0 !important;
+  color: yellow !important;
+}
+
+.view-my-projects .views-field-field-prj-image img {
+  height: 250px;
+  width: auto;
+  max-width: 250px;
+}
+
+.view-vse-proekty .views-field-field-prj-image img,
+.view-aktivnye-polzovateli .views-field-field-prj-image img {
+  height: 100px;
+  width: auto;
+  max-width: 100px;
+}
+
+.download-project-description {
+  float: right;
+  font-size: 14px;
+  color: #5cb85c;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+@media (min-width: 1024px) {
+  body.user-logged-in nav.navbar.bootsnav.navbar-top ul.nav > li > a,
+  body.path-user nav.navbar.bootsnav.navbar-top ul.nav > li > a,
+  body.path-price nav.navbar.bootsnav.navbar-top ul.nav > li > a,
+  body.path-oferta nav.navbar.bootsnav.navbar-top ul.nav > li > a,
+  body.path-contacts nav.navbar.bootsnav.navbar-top ul.nav > li > a{
+    padding: 3px 15px !important;
+  }
+
+  body.user-logged-in .navbar-top.navbar,
+  body.path-user .navbar-top.navbar,
+  body.path-price .navbar-top.navbar,
+  body.path-oferta .navbar-top.navbar,
+  body.path-contacts .navbar-top.navbar{
+    min-height: 35px;
+  }
+
+  body.user-logged-in .navbar-top .navbar-brand,
+  body.path-user .navbar-top .navbar-brand,
+  body.path-price .navbar-top .navbar-brand,
+  body.path-oferta .navbar-top .navbar-brand,
+  body.path-contacts .navbar-top .navbar-brand{
+    padding-top: 0px !important;
+    height: 35px !important;
+  }
+
+  body.user-logged-in .navbar-top .attr-nav > ul > li > a,
+  body.path-user .navbar-top .attr-nav > ul > li > a,
+  body.path-price .navbar-top .attr-nav > ul > li > a
+  body.path-oferta .navbar-top .attr-nav > ul > li > a,
+  body.path-contacts .navbar-top .attr-nav > ul > li > a{
+    padding: 5px 15px;
+  }
+
+  body.user-logged-in nav.navbar.bootsnav.navbar-fixed.navbar-transparent.navbar-top,
+  body.user-logged-in nav.navbar.bootsnav.navbar-fixed.no-background.navbar-top,
+  body:not(.user-logged-in):not(.path-frontpage) nav.navbar.bootsnav.navbar-fixed.navbar-transparent.navbar-top,
+  body:not(.user-logged-in):not(.path-frontpage) nav.navbar.bootsnav.navbar-fixed.no-background.navbar-top {
+    background: url(../assets/images/downloadbg.png) repeat-y;
+  }
+
+  body:not(.user-logged-in) #new-content {
+    margin-top: 100px;
+  }
+
+  body.path-user #new-content,
+  body.path-price #new-content,
+  body.path-oferta #new-content,
+  body.path-contacts #new-content{
+    margin-top: 0px;
+  }
+}
+
+body.path-oferta span {
+  color: #797979;
+}
+
+nav.navbar.bootsnav ul.nav > li > a.is-active {
+  color: #fc6a42 !important;
+}
+
+nav.no-background ul.nav.navbar-center li a.is-active {
+  color: #fcec64 !important;
+}
+
+.new-page-main-content {
+  margin-top: 35px;
+  content: " ";
+}
+
+.colorPickWrapper {
+  position: fixed;
+  z-index: 99999;
+}
+
+#colorPick {
+  width: 150px;
+}
+
+#el_draw2d_designer_block_toolbar .toolbar_delimiter {
+  height: 23px;
+}
+
+#el_draw2d_designer_block_toolbar .ajax-progress.ajax-progress-throbber .throbber {
+  background: transparent url(../assets/images/loader.gif) no-repeat 0 center;
+  width: 35px;
+  display: inline-block;
+}
+
+#el_draw2d_designer_block_toolbar .ajax-progress.ajax-progress-throbber .message {
+  color: white;
+}
+
+body.page-node-type-project .block-el-draw2d-toolbar-block {
+  float: right;
+  padding: 3px 0;
+}
+
+body.page-node-type-project .menu--main {
+  float: right;
+  padding: 0;
+}
+
+.sm-clean a.box-menu-item {
+  padding: 6px 24px 6px 5px
+}
+
+#box-menu {
+  border-radius: 2px;
+}
+
+
+.path-designer .block-el-elements-block {
+  position: absolute;
+  width: 300px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: white;
+  padding: 10px;
+  border: 2px solid #658CFF;
+  margin-left: 1px;
+}
+
+.elElementsBlockHideBtn {
+  color: #658CFF;
+  font-size: 16px;
+  position: absolute;
+  right: 5px;
+  top: 240px;
+  transform: translate(-50%, -50%);
+  cursor: pointer
+}
+
+.path-designer .block-system-main-block,
+.path-designer .page-title {
+  width: auto;
+  margin-left: 50px;
+}
+
+.path-designer .page-title {
+  font-size: 1rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+  line-height: 1rem;
+}
+
+.path-designer .messages {
+  padding: 2px 20px 2px 27px;
+  background-position: 5px center;
+}
+
+#el-elements-tree {
+  margin-left: 15px;
+}
+
+#el-elements-tree .el-preview {
+  color: black;
+}
+
+#el-elements-tree img.el-preview-image {
+  max-height: 60%;
+}
+
+#el-search {
+  border: 1px solid #fc6a42;
+  border-radius: 2px;
+}
+
+#electric-help-modal {
+  z-index: 99999;
+  top: 10%;
+}
+
+#electric-help-modal .modal-dialog {
+  width: 90%;
+}
+
+.electric-help-item {
+  margin-bottom: 3px;
+}
+
+.electric-help-item button {
+  width: 33px;
+  height: 33px;
+}
+
+.electric-help-item .help-button-color {
+  background-color: #2ECC71;
+}
+
+.electric-help-item .help-button-width:after {
+  content: "3";
+}
+
+.electric-help-item .keyboard-help {
+  font-weight: bold;
+}
+
+.elements-help-search {
+  border: 1px solid #fc6a42;
+  border-radius: 2px;
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  background-color: white;
+  padding: 2px 10px;
+}
+
+.elElementsBlockHelp {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #658CFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  writing-mode: vertical-lr;
+  padding: 15px;
+  cursor: e-resize;
+}
+
+.navbar-header {
+  z-index: 999;
+}
+
+body.path-price .head_title h5 {
+  text-transform: none;
+  padding: 0 20px;
+}
+
+body.path-price .container-fluid {
+  padding: 0;
+}
+
+body.path-price .block-page-title-block {
+  display: none;
+}
+
+body.path-price .main-content__section {
+  padding: 0;
+}
+
+.user-register-form #edit-simplenews > legend {
+  display: none;
+}
+
+.user-register-form #edit-field-prinimayu-usloviya-polzova-value--description {
+  display: inline-block;
+}
+
+.user-register-form #edit-field-prinimayu-usloviya-polzova-value--description a {
+  color: #fc6a42;
+  font-weight: bold;
+}
+
+.path-user .culmn .user-login-form label {
+  color: black;
+}
+
+.view-vse-zayavki {
+  overflow: auto;
+}
+
+.view-vse-zayavki .form-actions {
+  display: inline-block;
+  margin-top: 37px;
+}
+
+@media (max-width: 1320px) and (min-width: 1025px) {
+  .block-el-draw2d-toolbar-block {
+    clear: both;
+  }
+  #new-content {
+    margin-top: 24px;
+  }
+}
+
+.views-field-form-field-field-status .field--type-list-string.field--name-field-status {
+  width: 180px;
+}

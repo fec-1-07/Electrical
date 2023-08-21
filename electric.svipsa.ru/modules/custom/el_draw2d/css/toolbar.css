@@ -1,0 +1,68 @@
+#el_draw2d_designer_block_toolbar .btn-group {
+  display: inline-block;
+}
+
+#el_draw2d_designer_block_toolbar .btn-group .btn {
+  padding: 2px;
+}
+
+#el_draw2d_designer_block_toolbar .btn-group .btn img {
+  height: 27px;
+  width: 27px;
+}
+
+#el_draw2d_designer_block_toolbar .el-color-btn,
+#el_draw2d_designer_block_toolbar .el-stroke-btn {
+  padding: 4px 10px;
+  min-width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  font-weight: bold;
+  color: white;
+}
+
+#el_draw2d_designer_block_toolbar .el-color-btn:hover,
+#el_draw2d_designer_block_toolbar .el-stroke-btn:hover {
+  font-weight: bold;
+  color: red;
+}
+
+#el_draw2d_designer_block_toolbar .el-stroke-btn:hover div {
+  background-color: red!important;
+}
+
+#el_draw2d_designer_block_toolbar .el-color-btn.active,
+#el_draw2d_designer_block_toolbar .el-stroke-btn.active {
+  border: 2px dashed red;
+}
+
+#el_draw2d_designer_block_toolbar .el-color-btn.active.el-color-red {
+  border: 2px dashed black;
+}
+
+#el_draw2d_designer_block_toolbar .el-designer-save-btn {
+  width: 33px;
+  height: 33px;
+}
+
+#el_draw2d_designer_block_toolbar .toolbar_delimiter {
+  background: gray;
+  width: 2px;
+  height: 28px;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.boxes-paid-deny-desc  {
+  font-size: 10px;
+  color: darkred;
+}
+
+.boxes-paid-deny {
+  color: lightgray!important;
+}
+
+.boxes-paid-deny:hover,
+.boxes-paid-deny:visited  {
+  color: lightgray!important;
+}

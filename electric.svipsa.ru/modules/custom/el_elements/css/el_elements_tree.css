@@ -1,0 +1,13 @@
+.el-elements-paid.el-elements-disabled {
+  color: #9e9b9b;
+  cursor: no-drop!important;
+}
+
+.el-elements-free {
+  color: black;
+}
+
+.el-paid-description {
+  font-size: 10px;
+  color: darkred;
+}

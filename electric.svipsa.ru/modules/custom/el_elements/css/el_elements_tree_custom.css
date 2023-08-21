@@ -1,0 +1,63 @@
+body.sidebar-collapse #el-elements-tree-wrapper{
+  display: none;
+}
+
+
+#el-elements-tree-wrapper{
+  color: black;
+}
+
+#el-elements-tree ul {
+  padding-left: 15px;
+  display: none;
+}
+
+
+#el-elements-tree .el-has-children{
+  cursor: pointer;
+  list-style-type: disclosure-closed
+}
+
+#el-elements-tree .el-has-children.open {
+  list-style-type: disclosure-open;
+}
+
+#el-elements-tree .el_icon {
+  cursor: move;
+  list-style-type: disc;
+}
+
+#el-elements-tree .el_icon a{
+  height: 60px;
+}
+
+#el-elements-tree .el-preview {
+  cursor: help;
+  margin-left: 10px;
+  color: gray;
+}
+
+#el-elements-tree .el-preview *{
+  pointer-events: none;
+}
+
+#el-elements-tree img.el-preview-image {
+  display: none;
+  position: absolute;
+  max-width: 300px;
+  margin-left: 50px;
+  top: 10px;
+  box-shadow: 0 0 50px gray;
+}
+
+.search-active, .search-active > span {
+  color: #fc6a42;
+}
+
+.search-active > * {
+  color: black;
+}
+
+#el-search {
+  width: 100%;
+}
